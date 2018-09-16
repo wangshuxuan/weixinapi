@@ -1,0 +1,17 @@
+#服务器
+server:
+  port: 8081
+  
+#spring配置  
+spring:
+  redis:
+    host: ''
+    port: 6379
+    database: 
+
+#weChat   
+wx:
+  appId: xxxxxxx
+  secret: xxxxxxx
+  url: https://api.weixin.qq.com/sns/jscode2session
+  grantType: authorization_code
